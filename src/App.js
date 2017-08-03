@@ -1,25 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router,
-  Route, Link, browserHistory
+  Route, browserHistory
  } from 'react-router-dom';
+
+ import Nav from './components/Nav';
  import Home from './components/Home';
  import About from './components/About';
+ import Projects from './components/Projects';
+ import Contact from './components/Contact';
+
   ReactDOM.render(
     <Router history={browserHistory} >
       <div>
-        {/*load navBar here*/}
-        <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-      </ul>
-      <hr/>
-      
-      <Route exact path="/" component={Home}/>
-      <Route path="/about" component={About}/>
+        <Nav />
+        <Route exact path="/" component={Home}/>
+        <Route path="/about" component={About}/>
+        <Route path="/projects" component={Projects}/>
+        <Route path="/contact" component={Contact}/>
       </div>
     </Router>,
     document.getElementById('app')
   )
-
-export default App;
