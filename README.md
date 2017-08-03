@@ -9,6 +9,6 @@ Rebuilding my portfolio page in ReactJS using Webpack and Babel as dev tools.
 ## Resources
 - [Github cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 - [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists)
-### Contributers
+### Contributors
 - Mark McConnell [Github Repo](https://github.com/korrollir)
 - Mattattaq [Github Repo](https://github.com/mattattaq/)
